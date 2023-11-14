@@ -11,7 +11,7 @@
     "build": "sass src/sass/index.scss:src/sass/index.css && pnpm run tsc",
     "build:gen-files-sass": "node ./scripts/buildTokensToSass",
     "tsc": "tsc",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 3030",
     "build-storybook": "storybook build"
   },
   "repository": {
